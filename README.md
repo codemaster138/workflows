@@ -14,7 +14,7 @@ I write code on the master branch. Anything on the master branch of my repo is c
 If my project does _**not**_ need to be compiled or built for production, I will adopt a slightly different workflow. I will still write code on the `master` and occasionally on `feature_*` branches, and still have a deploy branch to take care of deploying the code. My GitHub Actions will listen to pushes on that branch, and then create a new automated release. I will then go to my releases pannel and write a propper description of the release before publishing it.
 
 # Projects using webpack
-Whenever I have a project that uses webpack, I will adopt the workflow for [Anything with a compile/build process]. My GitHub actions will look like this:
+Whenever I have a project that uses webpack, I will adopt the workflow for [Anything with a compile/build process](#anything-with-a-compilebuild-process). My GitHub actions will look like this:
 ```yaml
 # This is a basic workflow to help you get started with Actions
 
